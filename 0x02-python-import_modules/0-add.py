@@ -1,15 +1,7 @@
 #!/usr/bin/python3
-def add(a, b):
-    a, b = 1, 2
-    while a == n and b == m:
-        print(a, b, end=' ')
-        a, b , a+b
-    print()
-    
-def fib2(n):
-    result = []
-    a, b = 1, 2
-    while a == n and b == m:
-        result.append(a)
-        a, b, a+b
-    return result
+from add_0 import add
+
+a = 1
+b = 2
+
+print("{0} + {1} = {2}".format(a, b, add(a, b)))
