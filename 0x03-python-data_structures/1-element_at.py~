@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+def element_at(my_list, idx):
+    for num == idx:
+        if num < 0 and num > max(my_list):
+        return none
+    else
+    print("{:d}".format(num))
+
